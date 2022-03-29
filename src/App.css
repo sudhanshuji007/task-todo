@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e1e1e1 !important;
+}
+* {
+  box-sizing: border-box;
+}
+.todowrep {
+  margin: 20px 0px;
+}
+.add_btn .btn-danger {
+  border: 1px solid #dc3545;
+  padding: 0px 15px;
+  font-size: 15px;
+}
+.list_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  margin: 0px;
+  padding: 0px;
+}
+.list li {
+  list-style: none;
+  background: #aa6e6e;
+  padding: 5px 20px;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 15px 10px #77777726;
+  margin-top: 15px;
+}
